@@ -10,7 +10,7 @@ The objective of this project is to count the total number of coins in an image 
 **Approach and Implementation**
 -------------------------------
 
-### **1\. Detecting All Coins in the Image (2 Marks)**
+### **1\. Detecting All Coins in the Image**
 
 To detect the coins in the image, the following steps were undertaken:
 
@@ -20,7 +20,7 @@ To detect the coins in the image, the following steps were undertaken:
 -   **Thresholding:** Binary thresholding is applied to create a clear separation between the coins and the background.
 -   **Contour Detection:** Using `cv2.findContours()`, the external boundaries of objects in the image are identified. The contours are drawn over the original image to visualize detected coins.
 
-### **2\. Segmentation of Each Coin (3 Marks)**
+### **2\. Segmentation of Each Coin**
 
 To segment individual coins, the following techniques were applied:
 
@@ -28,7 +28,7 @@ To segment individual coins, the following techniques were applied:
 -   **Contour Sorting:** The detected contours are sorted based on their area, filtering out small, irrelevant contours.
 -   **Coin Extraction:** Individual coins are segmented based on the contours, and each segmented coin can be displayed separately.
 
-### **3\. Counting the Total Number of Coins (2 Marks)**
+### **3\. Counting the Total Number of Coins**
 
 -   The total number of coins is determined by filtering out noise and small contours below a certain area threshold (500 pixels in this case).
 -   Each valid contour is counted and displayed with its bounding area.
