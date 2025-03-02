@@ -6,6 +6,8 @@
 
 The objective of this project was to create a seamless panorama by stitching multiple overlapping images using computer vision techniques. The process involved detecting key points, matching features, computing transformations, and blending images. This report summarizes what was attempted, what worked, what didn't, and the final approach taken.
 
+**Simply run the code using python3 <name_of_the_python_file>**
+
 **2\. What Was Tried**
 ----------------------
 

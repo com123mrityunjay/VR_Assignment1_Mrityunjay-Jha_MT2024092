@@ -5,6 +5,8 @@ Introduction
 
 The objective of this project is to count the total number of coins in an image using OpenCV. The approach involves detecting edges, segmenting individual coins, and calculating the total count. The methodology includes grayscale conversion, Gaussian blurring, thresholding, and contour detection.
 
+**Simply run the code using python3 <name_of_the_python_file>**
+
 * * * * *
 
 **Approach and Implementation**
