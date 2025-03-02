@@ -71,4 +71,5 @@ The project successfully detects and counts coins in an image using OpenCV. Desp
 
 * * * * *
 
-**Final Coin Count:** *Displayed on the output image*
+
+![alt text](https://github.com/com123mrityunjay/VR_Assignment1_Mrityunjay-Jha_MT2024092/blob/main/part_1/output.png)

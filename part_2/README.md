@@ -41,3 +41,8 @@ The objective of this project was to create a seamless panorama by stitching mul
 ------------------
 
 The final approach successfully stitched overlapping images into a panorama. Future improvements could include **better blending techniques** and **global optimization for multiple images** to enhance accuracy and seamlessness.
+
+**7\. Output Image**
+------------------
+
+![alt text](https://github.com/com123mrityunjay/VR_Assignment1_Mrityunjay-Jha_MT2024092/blob/main/part_2/output.png)
